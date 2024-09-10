@@ -1,4 +1,5 @@
 const Game = require('../models/Game.model');
+const User = require('../models/User.model');
 
 // Crear un nuevo juego (solo admin)
 exports.createGame = async (req, res) => {
